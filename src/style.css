@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #ddd;
+}
+
+button,
+input,
+select,
+option,
+textarea {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
